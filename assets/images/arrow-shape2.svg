@@ -1,0 +1,45 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="588px" height="183.5px" viewBox="-3 -1.75 588 183.5" enable-background="new -3 -1.75 588 183.5" xml:space="preserve">
+	 <style>
+		.line {
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 1000;
+			animation: dash 10s linear forwards infinite;
+		}
+
+		<!-- .arrow {
+			opacity: 0;
+			animation: show 200ms forwards;
+			animation-delay: 1550ms;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			pointer-events: none;
+		}
+
+		@keyframes show {
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		} -->
+
+		@keyframes dash {
+			from {
+				stroke-dashoffset: 1000;
+			}
+			to {
+				stroke-dashoffset: 0;
+			}
+		}
+	</style>
+	<g id="line">
+	<path fill="none" stroke="#DDB100" stroke-width="2" stroke-miterlimit="10" d="M0,177.705c0,0,80.656-178.049,286.828-178.049
+	c0,0,196.216-12.4,295.172,178.049" class="line"/>
+	</g>
+<!-- <g id="arrow" class="arrow" transform="translate(179.444997, 192.049525) rotate(6.000000) translate(-179.444997, -192.049525) translate(176.944997, 187.049525)">
+	<path id="top-arrow" class='top-arrow'  fill="none" stroke="#DDB100" stroke-width="2" stroke-linecap="square" d="M395.754-51.278l5.944,0.41"/>
+	<path id="bottom-arrow" class='bottom-arrow'  fill="none" stroke="#DDB100" stroke-width="2" stroke-linecap="square" d="M401.901-50.994l0.743-5.908"/>
+</g> -->
+</svg>
