@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Fanvestor</title>
+      <!-- Favicon -->
+      <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png" />
+      <!-- Fonts -->
+      <link rel="stylesheet" href="../assets/fonts/stylesheet.css" />
+      <!-- Main custom css -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.css">
+      <link href="../assets/css/dist/style.css" media="screen" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.css">
+   </head>
+   <body>
+    <!-- Header Start -->
+    <header class="header fixed w-full z-9">
+      <div class="full-menu" style="background-image:url('../assets/images/menu-shadow.png');">
+        <nav id="menu" class="menu relative xlscreen:overflow-auto xlscreen:pb-100 max-w-calc_100_110 m-auto xlscreen:w-full xlscreen:top-80 xlscreen:h-[90vh] xlscreen:max-w-calc_100_40">
+          <ul class="flex xlscreen:flex-col xlscreen:max-w-full m-auto">
+            <li class="menu-link min-w-[220px]">
+              <h4 class="menu-title font-Roc text-41 tracking-[0.049em] uppercase font-black flex items-center h-[90px] border-b-2 border-black mb-30 pr-15 mx-0 laptop:text-24 xlscreen:h-auto xlscreen:py-10 xlscreen:mb-20"><a href="#">OFFERINGS</a></h4>
+              <ul class="submenu">
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">CREATORS</a></li>
+              </ul>
+            </li>
+            <li class="menu-link min-w-[220px]">
+              <h4 class="menu-title font-Roc text-41 tracking-[0.049em] uppercase font-black flex items-center h-[90px] border-b-2 border-black mb-30 px-15 mx-0 laptop:text-24 xlscreen:pl-0 xlscreen:h-auto xlscreen:py-10 xlscreen:mb-20"><a href="#">COMPANY</a></h4>
+              <ul class="submenu">
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">about us  </a></li>
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">press</a></li>
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">carrers</a></li>
+              </ul>
+            </li>
+            <li class="menu-link min-w-[220px]">
+              <h4 class="menu-title font-Roc text-41 tracking-[0.049em] uppercase font-black flex items-center h-[90px] border-b-2 border-black mb-30 px-15 mx-0 laptop:text-24 xlscreen:pl-0 xlscreen:h-auto xlscreen:py-10 xlscreen:mb-20"><a href="#">HOW IT<br /> WORKS</a></h4>
+              <ul class="submenu">
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">invest</a></li>
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">crowdfunding</a></li>
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">RISK FACTORS</a></li>
+              </ul>
+            </li>
+            <li class="menu-link min-w-[220px]">
+              <h4 class="menu-title font-Roc text-41 tracking-[0.049em] uppercase font-black flex items-center h-[90px] border-b-2 border-black mb-30 px-15 mx-0 laptop:text-24 xlscreen:pl-0 xlscreen:h-auto xlscreen:py-10 xlscreen:mb-20"><a href="#">LEGAL</a></h4>
+              <ul class="submenu">
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">terms & conditions</a></li>
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">privacy policy</a></li>
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">cookie notice</a></li>
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">accessibility</a></li>
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">form s-p</a></li>
+              </ul>
+            </li>
+            <li class="menu-link min-w-[220px]">
+              <h4 class="menu-title font-Roc text-41 tracking-[0.049em] uppercase font-black flex items-center h-[90px] border-b-2 border-black mb-30 px-15 mx-0 laptop:text-24 xlscreen:pl-0 xlscreen:h-auto xlscreen:py-10 xlscreen:mb-20"><a href="#">FAQ</a></h4>
+              <ul class="submenu">
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">fanvestor</a></li>
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">reg cf</a></li>
+                <li class="submenu-title uppercase font-Grantha font-normal text-20 tracking-[0.049em]"><a href="#0">experiences</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="flex items-center pt-35 mx-auto max-w-calc_100_120 mdscreen2:max-w-calc_100_40 pb-20 mdscreen2:pt-[25px] border-b-1 ">
+
+        <div class="logo lgscreen:pt-0 z-9 lgscreen:ml-0">
+          <a href="../pages/index.html"><img src="../assets/images/logo.png" class="max-w-275 normal-logo mdscreen2:max-w-[180px] mdscreen2:max-w-[130px]" alt="Logo"></a>
+        </div>
+
+        
+        <div class="navbar-icon flex flex-col justify-center cursor-pointer hamburguer  ml-20">
+          <span class="w-40 mdscreen:w-20 lines line-top"></span>
+          <span class="w-40 mdscreen:w-20 lines line-mid"></span>
+          <span class="w-40 mdscreen:w-20 lines line-bottom"></span>
+        </div>
+
+        <div class="link flex justify-center ml-25 relative top-5">
+          <a href="/how-it-works" class="link-head tracking-[.049em] uppercase text-16 text-black font-Grantha leading-none">creaters</a>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+      <!-- Wrapper Start -->
+      <div id="fullpage" class="faded-home">
+         <div class="h-full">
+            <div class="breadcrumb relative bg-cover h-screen w-full bg-no-repeat bg-center flex flex-col justify-end items-center z-0 pb-40 mdscreen2:pb-80 mdscreen2:max-h-[600px] smscreen2:max-h-[400px]" style="background-image:url('../assets/images/breadcrumb-bg.png');">
+               <div class="text-transparent">
+                  <h2 class="text-center stroke-[#243c5a] fill-transparent text-331 font-Roc leading-[0.75em]" style="-webkit-text-stroke: 1px rgba(255,255,255,0.2); -webkit-text-fill-color: transparent;">HOW IT WORKS</h2>
+                  <h2 class="text-center stroke-[#243c5a] fill-transparent text-331 font-Roc leading-[0.75em]" style="-webkit-text-stroke: 1px rgba(255,255,255,0.2); -webkit-text-fill-color: transparent;">HOW IT WORKS</h2>
+                  <h2 class="text-center stroke-[#243c5a] fill-transparent text-331 font-Roc leading-[0.75em]" style="-webkit-text-stroke: 1px rgba(255,255,255,0.2); -webkit-text-fill-color: transparent;">HOW IT WORKS</h2>
+                  <h2 class="text-center stroke-[#243c5a] fill-transparent text-331 font-Roc leading-[0.75em]" style="-webkit-text-stroke: 1px rgba(255,255,255,0.2); -webkit-text-fill-color: transparent;">HOW IT WORKS</h2>
+               </div>
+               <div class="title mb-[-40px]">
+                  <h1 class="font-Roc text-white text-center font-bold text-331" data-aos="fade-up">HOW IT WORKS</h1>
+               </div>
+            </div>
+
+
+            <!-- <div class="black-section relative px-40 mdscreen2:px-20  bg-lightblack text-grey rounded-[50px] z-3 my-[-50px] pt-40 pb-180 text-center mdscreen2:pb-160">
+                <div class="dot">
+                   <img src="../assets/images/white-dot.png" class="left-[80px] top-[130px] absolute mdscreen2:max-w-[150px] mdscreen2:left-[40px] smscreen2::max-w-[100px] smscreen2:left-[20px] rellax" data-rellax-speed="1" alt="">
+                   <img src="../assets/images/white-dot.png" class="right-[80px] bottom-[130px] absolute mdscreen2:max-w-[150px] mdscreen2:right-[40px] smscreen2::max-w-[100px] smscreen2:right-[20px] rellax" data-rellax-speed="1" alt="">
+                </div>
+                <div class="dot">
+                   <img src="../assets/images/cross-asset.png" class="left-[60px] top-[60px] mdscreen2:left-[40px] mdscreen2:top-[40px] mdscreen2:max-w-[25px] absolute" alt="">
+                   <img src="../assets/images/cross-asset.png" class="left-[60px] bottom-[60px] mdscreen2:left-[40px] mdscreen2:bottom-[40px] mdscreen2:max-w-[25px] absolute" alt="">
+                   <img src="../assets/images/cross-asset.png" class="right-[60px] top-[60px] mdscreen2:right-[40px] mdscreen2:top-[40px] mdscreen2:max-w-[25px] absolute" alt="">
+                   <img src="../assets/images/cross-asset.png" class="right-[60px] bottom-[60px] mdscreen2:right-[40px] mdscreen2:bottom-[40px] mdscreen2:max-w-[25px] absolute" alt="">
+                </div>
+                <div class="content  relative z-1">
+                   <div class='icon-scroll relative w-40 h-70 mx-auto mb-80 border-1 border-gray rounded-[25px]'></div>
+                   <h5 class="font-Grantha font-bold text-29" data-aos="fade-up">HOW IT WORKS</h5>
+                   <h2 class="text-grey pt-20 pb-30" data-aos="fade-up">Investing In <br />Celebrity Business</h2>
+                   <h4 class="text-33 font-light max-w-[1200px] m-auto" data-aos="fade-up">Fanvestor is an SEC registered funding portal and member of FINRA and presents opportunities for you, the fan, to invest in projects and businesses related to your favorite celebrities, athletes and artists</h4>
+                </div>
+             </div> -->
+
+             <div class="black-section relative px-40 mdscreen2:px-20  bg-lightblack text-grey rounded-[50px] z-3 my-[-50px] pt-40 pb-180 text-center mdscreen2:pb-160">
+               <div class="dot">
+                  <img src="../assets/images/white-dot.png" class="left-[80px] top-[130px] absolute mdscreen2:max-w-[150px] mdscreen2:left-[40px] smscreen2::max-w-[100px] smscreen2:left-[20px] rellax" data-rellax-speed="1" alt="">
+                  <img src="../assets/images/white-dot.png" class="right-[80px] bottom-[20px] absolute mdscreen2:max-w-[150px] mdscreen2:right-[40px] smscreen2::max-w-[100px] smscreen2:right-[20px] rellax" data-rellax-speed="1" alt="">
+               </div>
+               <div class="dot">
+                  <img src="../assets/images/cross-asset.png" class="left-[60px] top-[60px] absolute mdscreen2:top-[40px] mdscreen2:left-[40px] mdscreen2:max-w-[25px]" alt="">
+                  <img src="../assets/images/cross-asset.png" class="left-[60px] bottom-[60px] absolute mdscreen2:bottom-[40px] mdscreen2:left-[40px] mdscreen2:max-w-[25px]" alt="">
+                  <img src="../assets/images/cross-asset.png" class="right-[60px] top-[60px] absolute mdscreen2:top-[40px] mdscreen2:right-[40px] mdscreen2:max-w-[25px]" alt="">
+                  <img src="../assets/images/cross-asset.png" class="right-[60px] bottom-[60px] absolute mdscreen2:bottom-[40px] mdscreen2:right-[40px] mdscreen2:max-w-[25px]" alt="">
+               </div>
+               <div class="content max-w-[1300px] m-auto relative z-1">
+                  <div class='icon-scroll relative w-[50px] h-[90px] mx-auto mb-100 border-1 border-gray rounded-[25px] mdscreen2:mb-50'></div>
+                  <h5 class="font-Grantha font-bold text-29" data-aos="fade-up">HOW IT WORKS</h5>
+                  <h2 class="text-grey pb-40" data-aos="fade-up">Investing In <br />
+                     Celebrity Business</h2>
+                  <h4 class="text-33 font-light font-Gravitica" data-aos="fade-up">FANVESTOR IS AN SEC REGISTERED FUNDING PORTAL AND MEMBER OF FINRA AND PRESENTS OPPORTUNITIES FOR YOU, THE FAN, TO INVEST IN PROJECTS AND BUSINESSES RELATED TO YOUR FAVORITE CELEBRITIES, ATHLETES AND ARTISTS</h4>
+               </div>
+            </div>
+
+             <div class="timeline px-40 mdscreen2:px-20 background-gradient relative w-full pt-150 mdscreen2:pt-80 bg-cover bg-no-repeat bg-center" style="background-image:url(../assets/images/work-bg.png);">
+               <ul class="relative max-w-[1250px] m-auto">
+                 <li class="relative grid grid-cols-2 items-start w-full mdscreen2:flex mdscreen2:flex-col-reverse mdscreen2:pl-40">
+                  <div class="left_content mx-20px  mdscreen2:mt-20">
+                     <div class="text max-w-[450px]">
+                        <h2 class="text-104 font-Roc font-bold" data-aos="fade-up">01</h2>
+                        <h6 class="font-bold text-20 font-Grantha uppercase" data-aos="fade-up">PHASE NO. 01</h6>   
+                        <div class="pt-40 mdscreen2:pt-20">
+                           <h2 class="text-83 leading-[0.9em]" data-aos="fade-up">Lorem  Ipsum Header</h2>
+                           <p class="font-Gravitica text-29 font-light uppercase pt-30 leading-[1em]" data-aos="fade-up">Check out the opportunities under the investment tab (or download the app), and browse our listing of projects and business opportunities.</p>
+                        </div>
+                     </div>
+                  </div>
+                   <div class="right_content">
+                     <div class="img pt-100 relative left-[-25px] mdscreen2:left-0 mdscreen2:max-w-per80" data-aos="fade-up">
+                        <img src="../assets/images/work-1.png" alt="">
+                     </div>
+                   </div>
+                 </li>
+
+                 <li class="relative timelinelist second grid grid-cols-2 items-start w-full mdscreen2:flex mdscreen2:flex-col mdscreen2:pl-40">
+                  <div class="left_content">
+                     <div class="img relative" data-aos="fade-up">
+                        <img src="../assets/images/work-2.png" alt="">
+                     </div>
+                  </div>
+                   <div class="right_content">
+                     <div class="text max-w-[450px] m-auto pt-60  mdscreen2:mt-20 xlscreen:mr-0 mdscreen2:mr-auto">
+                        <h2 class="text-104 font-Roc font-bold" data-aos="fade-up">02</h2>
+                        <h6 class="font-bold text-20 font-Grantha uppercase" data-aos="fade-up">PHASE NO. 02</h6>   
+                        <div class="pt-40 mdscreen2:pt-20">
+                           <h2 class="text-83 leading-[0.9em]" data-aos="fade-up">Lorem  Ipsum Header</h2>
+                           <p class="font-Gravitica text-29 font-light uppercase pt-30 leading-[1em]" data-aos="fade-up">Choose an offering that matches your investment thesis and click on Invest to begin the process. It’s always a good idea to diversify your investments into several offerings.</p>
+                        </div>
+                     </div>
+                   </div>
+                 </li>
+
+                 <li class="relative timelinelist grid grid-cols-2 items-start w-full mdscreen2:flex mdscreen2:flex-col mdscreen2:pl-40 pb-20">
+                  <div class="left_content mx-20px">
+                     <div class="text max-w-[450px] mt-[-120px] mdscreen2:mt-20">
+                        <h2 class="text-104 font-Roc font-bold" data-aos="fade-up">03</h2>
+                        <h6 class="font-bold text-20 font-Grantha uppercase" data-aos="fade-up">PHASE NO. 03</h6>   
+                        <div class="pt-40 mdscreen2:pt-20">
+                           <h2 class="text-83 leading-[0.9em]" data-aos="fade-up">Lorem  Ipsum Header</h2>
+                           <p class="font-Gravitica text-29 font-light uppercase pt-30 leading-[1em]" data-aos="fade-up">Track your projects on the FanVestor app or website.</p>
+                        </div>
+                     </div>
+                  </div>
+                 </li>
+
+               </ul>
+
+               <div class="work-img">
+                  <img src="../assets/images/work-3.png" alt="" class="m-auto relative left-[9%] top-[-100px] mdscreen2:left-0 mdscreen2:top-0 mdscreen2:max-w-per80">
+               </div>
+             </div>
+
+             <div class="work-b black-section relative bg-lightblack text-grey rounded-[50px] z-3 my-[-50px] pt-150 pb-300 mdscreen2:pb-100 text-center shadow-roundshadow">
+               <div class="max-w-calc_100_110 m-auto mdscreen2:max-w-calc_100_40">
+                  <div class="dot">
+                     <img src="../assets/images/white-dot.png" class="left-[80px] top-[20%] absolute mdscreen2:max-w-[150px] mdscreen2:left-[40px] smscreen2::max-w-[100px] smscreen2:left-[20px] rellax" data-rellax-speed="1" alt="">
+                     <img src="../assets/images/white-dot.png" class="right-[80px] top-[35%] absolute mdscreen2:max-w-[150px] mdscreen2:right-[40px] smscreen2::max-w-[100px] smscreen2:right-[20px] rellax" data-rellax-speed="1" alt="">
+                  </div>
+                  <div class="dot">
+                     <img src="../assets/images/cross-asset.png" class="left-[60px] top-[60px] mdscreen2:left-[40px] mdscreen2:top-[40px] mdscreen2:max-w-[25px] absolute" alt="">
+                     <img src="../assets/images/cross-asset.png" class="left-[60px] bottom-[60px] mdscreen2:left-[40px] mdscreen2:bottom-[40px] mdscreen2:max-w-[25px] absolute" alt="">
+                     <img src="../assets/images/cross-asset.png" class="right-[60px] top-[60px] mdscreen2:right-[40px] mdscreen2:top-[40px] mdscreen2:max-w-[25px] absolute" alt="">
+                     <img src="../assets/images/cross-asset.png" class="right-[60px] bottom-[60px] mdscreen2:right-[40px] mdscreen2:bottom-[40px] mdscreen2:max-w-[25px] absolute" alt="">
+                  </div>
+                  <div class="content  relative z-1">
+                     <div class="title">
+                        <h6 class="font-Grantha font-bold uppercase text-29 text-grey" data-aos="fade-up">HOW IT WORKS</h6>
+                        <h2 class="text-grey pb-60" data-aos="fade-up">Investment<br /> Offering Terms</h2>
+                     </div>
+                     <img src="../assets/images/investor-1.png" alt="" class="m-auto" data-aos="fade-up">
+                  </div>
+
+                  <div class="list-work pt-50">
+                     <div class="border-grey pb-70   mb-70 border-b-4 mdscreen2:pb-0 mdscreen2:mb-40">
+                        <ul class="grid  grid-cols-4 xlscreen:grid-cols-3  mdscreen2:grid-cols-2 mdscreen:block  max-w-[1400px] m-auto">
+                           <li class="text-center cursor-pointer px-30 pb-60 mdscreen2:px-15 mdscreen2:pb-50 ">
+                              <span class="number flex justify-center items-center m-auto h-34 w-34 rounded-100 border-grey border-1 text-grey" data-aos="fade-up">1</span>
+                              <h3 class="font-Gravitica text-50 text-grey leading-[1em] uppercase pb-20 pt-30" data-aos="fade-up">Total offering</h3>
+                              <p class="font-Grantha text-20 text-grey uppercase" data-aos="fade-up">The total amount of money the offering is seeking to raise</p>
+                           </li>
+
+                           <li class="text-center cursor-pointer px-30 pb-60 mdscreen2:px-15 mdscreen2:pb-50">
+                              <span class="number flex justify-center items-center m-auto h-34 w-34 rounded-100 border-grey border-1 text-grey" data-aos="fade-up">1</span>
+                              <h3 class="font-Gravitica text-50 text-grey leading-[1em] uppercase pb-20 pt-30" data-aos="fade-up">Total offering</h3>
+                              <p class="font-Grantha text-20 text-grey uppercase" data-aos="fade-up">The total amount of money the offering is seeking to raise</p>
+                           </li>
+
+                           <li class="text-center cursor-pointer px-30 pb-60 mdscreen2:px-15 mdscreen2:pb-50">
+                              <span class="number flex justify-center items-center m-auto h-34 w-34 rounded-100 border-grey border-1 text-grey" data-aos="fade-up">1</span>
+                              <h3 class="font-Gravitica text-50 text-grey leading-[1em] uppercase pb-20 pt-30" data-aos="fade-up">Total offering</h3>
+                              <p class="font-Grantha text-20 text-grey uppercase" data-aos="fade-up">The total amount of money the offering is seeking to raise</p>
+                           </li>
+
+                           <li class="text-center cursor-pointer px-30 pb-60 mdscreen2:px-15 mdscreen2:pb-50">
+                              <span class="number flex justify-center items-center m-auto h-34 w-34 rounded-100 border-grey border-1 text-grey" data-aos="fade-up">1</span>
+                              <h3 class="font-Gravitica text-50 text-grey leading-[1em] uppercase pb-20 pt-30" data-aos="fade-up">Total offering</h3>
+                              <p class="font-Grantha text-20 text-grey uppercase" data-aos="fade-up">The total amount of money the offering is seeking to raise</p>
+                           </li>
+                           <li class="text-center cursor-pointer px-30 pb-60 mdscreen2:px-15 mdscreen2:pb-50">
+                              <span class="number flex justify-center items-center m-auto h-34 w-34 rounded-100 border-grey border-1 text-grey" data-aos="fade-up">1</span>
+                              <h3 class="font-Gravitica text-50 text-grey leading-[1em] uppercase pb-20 pt-30" data-aos="fade-up">Total offering</h3>
+                              <p class="font-Grantha text-20 text-grey uppercase" data-aos="fade-up">The total amount of money the offering is seeking to raise</p>
+                           </li>
+
+                           <li class="text-center cursor-pointer px-30 pb-60 mdscreen2:px-15 mdscreen2:pb-50">
+                              <span class="number flex justify-center items-center m-auto h-34 w-34 rounded-100 border-grey border-1 text-grey" data-aos="fade-up">1</span>
+                              <h3 class="font-Gravitica text-50 text-grey leading-[1em] uppercase pb-20 pt-30" data-aos="fade-up">Total offering</h3>
+                              <p class="font-Grantha text-20 text-grey uppercase" data-aos="fade-up">The total amount of money the offering is seeking to raise</p>
+                           </li>
+                           <li class="text-center cursor-pointer px-30 pb-60 mdscreen2:px-15 mdscreen2:pb-50">
+                              <span class="number flex justify-center items-center m-auto h-34 w-34 rounded-100 border-grey border-1 text-grey" data-aos="fade-up">1</span>
+                              <h3 class="font-Gravitica text-50 text-grey leading-[1em] uppercase pb-20 pt-30" data-aos="fade-up">Total offering</h3>
+                              <p class="font-Grantha text-20 text-grey uppercase" data-aos="fade-up">The total amount of money the offering is seeking to raise</p>
+                           </li>
+
+                           <li class="text-center cursor-pointer px-30 pb-60 mdscreen2:px-15 mdscreen2:pb-50">
+                              <span class="number flex justify-center items-center m-auto h-34 w-34 rounded-100 border-grey border-1 text-grey" data-aos="fade-up">1</span>
+                              <h3 class="font-Gravitica text-50 text-grey leading-[1em] uppercase pb-20 pt-30" data-aos="fade-up">Total offering</h3>
+                              <p class="font-Grantha text-20 text-grey uppercase" data-aos="fade-up">The total amount of money the offering is seeking to raise</p>
+                           </li>
+                        </ul>
+                     </div>
+
+                     <div class="last-text text-left">
+                        <h2 class="text-93 py-[25px] text-white mdscreen2:py-15" data-aos="fade-up"><span class="text-lightgreen">+</span> Learn More</h2>
+                        <h2 class="text-93  py-[25px] text-white mdscreen2:py-15" data-aos="fade-up"><span class="text-lightgreen">+</span> Crowdfunding Overview</h2>
+                        <p class="text-20 pt-15 font-Grantha text-darkgray leading-[1.2em] uppercase" data-aos="fade-up">Investment crowdfunding platform which allows for private U.S. companies to seek investments from the general public under the provisions of Title III of the Jumpstart Our Business Startups Act of 2012 (known as the “JOBS Act”). Companies raising capital under this regulation can raise at most $5 Million under Reg CF and $75 Million under Reg A+.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="creator relative bg-cover bg-no-repeat bg-center pt-[210px] pb-[110px] mdscreen2:pt-120 mdscreen2:pb-80 z-2 rounded-b-[50px] mb-[-50px] bg-grey drop-shadow-lightShadow" style="background-image:url(../assets/images/creators-bg.png)">
+               <div class="dot">
+                  <img src="../assets/images/dot-grid.png" class="left-[80px] top-[40%] absolute mdscreen2:max-w-[150px] mdscreen2:left-[40px] smscreen2::max-w-[100px] smscreen2:left-[20px] smscreen2:max-w-[100px] smscreen2:left-[20px] rellax" data-rellax-speed="1" alt="">
+                  <img src="../assets/images/dot-grid.png" class="left-[80px] top-[50%] absolute mdscreen2:max-w-[150px] mdscreen2:left-[40px] smscreen2::max-w-[100px] smscreen2:left-[20px] rellax" data-rellax-speed="1" alt="">
+                  <img src="../assets/images/dot-grid.png" class="right-[80px] top-[33%] absolute mdscreen2:max-w-[150px] mdscreen2:right-[40px] smscreen2::max-w-[100px] smscreen2:right-[20px] rellax" data-rellax-speed="1" alt="">
+                  <img src="../assets/images/dot-grid.png" class="right-[80px] top-[53%] absolute mdscreen2:max-w-[150px] mdscreen2:right-[40px] smscreen2::max-w-[100px] smscreen2:right-[20px] rellax" data-rellax-speed="1" alt="">
+                  <img src="../assets/images/dot-grid.png" class="left-[80px] bottom-[-15%] absolute mdscreen2:max-w-[150px] mdscreen2:left-[40px] smscreen2::max-w-[100px] smscreen2:left-[20px] rellax" data-rellax-speed="1" alt="">
+               </div>
+               <div class="max-w-calc_100_110 m-auto mdscreen2:max-w-calc_100_40">
+                  <h2 data-aos="fade-up">Meet the<br /> Creators</h2>
+                  <div class="creator-img">
+                     <img src="../assets/images/creators.png" alt="" class="max-w-per80 m-auto">
+                  </div>
+
+                  <ul class="w-full max-w-[1400px] flex flex-wrap m-auto justify-center list-none">
+                     <li class="team-card cursor-pointer bg-cover px-10 max-w-[430px] w-[33.33%] py-20 text-center mb-70 mdscreen2:max-w-[400] mdscreen2:mb-20 mdscreen2:w-[50%] smscreen2:px-0 smscreen2:w-full" data-aos="fade-up">
+                        <div class="relative  bg-cover bg-bottom bg-no-repeat border-4 border-black max-w-calc_100_40 m-auto min-h-[560px] rounded-[50px]" style="background-image: url(../assets/images/card-bg.png);">
+                        </div>
+                        <h4 class="text-34 font-Roc font-bold pt-30 px-10">Amar’e Stoudemire</h4>
+                        <h5 class="text-24 font-GTAmericaMono font-normal pt-15">PRODUCT LAUNCH  <span class="text-darkgray">+</span></h5>
+                     </li>
+                     <li class="team-card cursor-pointer bg-cover px-10 max-w-[430px] py-20 text-center mb-70 mdscreen2:max-w-[400px] mdscreen2:mb-20 smscreen2:px-0" data-aos="fade-up">
+                        <div class="relative bg-cover bg-bottom bg-no-repeat border-4 border-black max-w-calc_100_40 m-auto min-h-[560px] rounded-[50px]" style="background-image: url(../assets/images/card-bg.png);">
+                        </div>
+                        <h4 class="text-34 font-Roc font-bold pt-30 px-10">Amar’e Stoudemire</h4>
+                        <h5 class="text-24 font-GTAmericaMono font-normal pt-15">PRODUCT LAUNCH  <span class="text-darkgray">+</span></h5>
+                     </li>
+                      <li class="team-card cursor-pointer bg-cover px-10 max-w-[430px] py-20 text-center mb-70 mdscreen2:max-w-[400px] mdscreen2:mb-20 smscreen2:px-0" data-aos="fade-up">
+                        <div class="relative bg-cover bg-bottom bg-no-repeat border-4 border-black max-w-calc_100_40 m-auto min-h-[560px] rounded-[50px]" style="background-image: url(../assets/images/card-bg.png);">
+                        </div>
+                        <h4 class="text-34 font-Roc font-bold pt-30 px-10">Amar’e Stoudemire</h4>
+                        <h5 class="text-24 font-GTAmericaMono font-normal pt-15">PRODUCT LAUNCH  <span class="text-darkgray">+</span></h5>
+                     </li>
+                      <li class="team-card cursor-pointer bg-cover px-10 max-w-[430px] py-20 text-center mb-70 mdscreen2:max-w-[400px] mdscreen2:mb-20 smscreen2:px-0" data-aos="fade-up">
+                        <div class="relative bg-cover bg-bottom bg-no-repeat border-4 border-black max-w-calc_100_40 m-auto min-h-[560px] rounded-[50px]" style="background-image: url(../assets/images/card-bg.png);">
+                        </div>
+                        <h4 class="text-34 font-Roc font-bold pt-30 px-10">Amar’e Stoudemire</h4>
+                        <h5 class="text-24 font-GTAmericaMono font-normal pt-15">PRODUCT LAUNCH  <span class="text-darkgray">+</span></h5>
+                     </li>
+                      <li class="team-card cursor-pointer bg-cover px-10 max-w-[430px] py-20 text-center mb-70 mdscreen2:max-w-[400px] mdscreen2:mb-20 smscreen2:px-0" data-aos="fade-up">
+                        <div class="relative bg-cover bg-bottom bg-no-repeat border-4 border-black max-w-calc_100_40 m-auto min-h-[560px] rounded-[50px]" style="background-image: url(../assets/images/card-bg.png);">
+                        </div>
+                        <h4 class="text-34 font-Roc font-bold pt-30 px-10">Amar’e Stoudemire</h4>
+                        <h5 class="text-24 font-GTAmericaMono font-normal pt-15">PRODUCT LAUNCH  <span class="text-darkgray">+</span></h5>
+                     </li>
+                      <li class="team-card cursor-pointer bg-cover px-10 max-w-[430px] py-20 text-center mb-70 mdscreen2:max-w-[400px] mdscreen2:mb-20 smscreen2:px-0" data-aos="fade-up">
+                        <div class="relative bg-cover bg-bottom bg-no-repeat border-4 border-black max-w-calc_100_40 m-auto min-h-[560px] rounded-[50px]" style="background-image: url(../assets/images/card-bg.png);">
+                        </div>
+                        <h4 class="text-34 font-Roc font-bold pt-30 px-10">Amar’e Stoudemire</h4>
+                        <h5 class="text-24 font-GTAmericaMono font-normal pt-15">PRODUCT LAUNCH  <span class="text-darkgray">+</span></h5>
+                     </li>
+                   </ul>
+
+                  <div class="btn text-center mt-20">
+                     <a href="#" class="btn-lightgreen" data-aos="fade-up">VIEW past OFFERINGS</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="connect relative bg-lightgreen rounded-b-[50px] z-1 mb-[-50px]">
+               <div class="max-w-calc_100_110 m-auto mdscreen2:max-w-calc_100_40">
+                 <div class="pb-[230px] pt-[230px] mdscreen:pt-100 mdscreen:pb-150">
+                   <div class="flex justify-between mdscreen2:flex-col-reverse">
+                     <h2 class="font-135"  data-aos="fade-up">Join Our<br />
+                       Mailing List
+                     </h2>
+                     <img src="../assets/images/mail_icon.png" alt="" class="h-275 w-275 mdscreen2:mb-20">
+                   </div>
+                   <div class="text pt-30 pb-45 max-w-[70%] mdscreen2:block mdscreen:max-w-full">
+                     <h4 class="font-Grantha font-light"  data-aos="fade-up">SUBSCRIBE TO LEARN ABOUT OUR LATEST NEWS,<br /> UPDATES AND FAN-POWER ventures.</h4>
+                   </div>
+                   <div class="fields w-70_per flex mdscreen2:block mdscreen2:w-full">
+                     <input type="email" placeholder="EMAIL..." class="max-w-calc_100_330 mdscreen2:max-w-full mdscreen2:mb-25" data-aos="fade-up"/>
+                     <a href="" class="btn-white ml-20 mdscreen2:ml-0"  data-aos="fade-up">JOIN NOW</a>
+                   </div>
+                 </div>
+               </div>
+               <div class="absolute right-40 bottom-40 ">
+                 <img src="../assets/images/favicon.png" alt="" class="w-70 h-70 object-contain">
+               </div>
+             </div>
+
+            <div class="footer text-white bg-black pt-130 pb-50 mdscreen2:pt-50">
+               <div class="max-w-calc_100_110 m-auto mdscreen2:max-w-calc_100_40">
+                  <div class="row flex mdscreen2:flex-col">
+                     <div class="w-10_per mdscreen2:w-full mdscreen2:mb-20"  data-aos="fade-up">
+                        <a href="#">
+                        <img src="../assets/images/white_logo.png" alt="" class="w-80 h-80 object-contain">
+                        </a>
+                     </div>
+                     <ul class="w-65_per flex row mdscreen2:flex-wrap mdscreen2:w-full mdscreen2:mb-20" data-aos="fade-up">
+                        <li class="w-20_per mdscreen2:min-w-[200px] mdscreen2:mb-20">
+                           <h5 class="text-18 font-Helvetica_black uppercase font-bold pb-20" >OFFERINGS</h5>
+                           <a href="#" class="text-14 font-light font-Grantha block">CREATORS</a>
+                        </li>
+                        <li class="w-20_per mdscreen2:min-w-[200px] mdscreen2:mb-20">
+                           <h5 class="text-18 font-Helvetica_black uppercase font-bold pb-20">COMPANY</h5>
+                           <a href="#" class="text-14 font-light font-Grantha block" >ABOUT US</a>
+                           <a href="#" class="text-14 font-light font-Grantha block" >PRESS</a>
+                           <a href="#" class="text-14 font-light font-Grantha block" >CAREERS</a>
+                        </li>
+                        <li class="w-20_per mdscreen2:min-w-[200px] mdscreen2:mb-20">
+                           <h5 class="text-18 font-Helvetica_black uppercase font-bold pb-20">HOW IT WORKS</h5>
+                           <a href="#" class="text-14 font-light font-Grantha block" >INVEST RISK</a>
+                           <a href="#" class="text-14 font-light font-Grantha block" >FACTORS</a>
+                           <a href="#" class="text-14 font-light font-Grantha block" >CROWDFUNDING</a>
+                        </li>
+                        <li class="w-20_per mdscreen2:min-w-[200px] mdscreen2:mb-20">
+                           <h5 class="text-18 font-Helvetica_black uppercase font-bold pb-20">LEGAL</h5>
+                           <a href="#" class="text-14 font-light font-Grantha block" >TERMS & CONDITION</a>
+                           <a href="#" class="text-14 font-light font-Grantha block" >PRIVACY POLICY</a>
+                           <a href="#" class="text-14 font-light font-Grantha block" >COOKIE NOTICE</a>
+                           <a href="#" class="text-14 font-light font-Grantha block" >ACCESSIBILITY</a>
+                           <a href="#" class="text-14 font-light font-Grantha block" >FORMS-P</a>
+                        </li>
+                        <li class="w-20_per mdscreen2:min-w-[200px] mdscreen2:mb-20">
+                           <h5 class="text-18 font-Helvetica_black uppercase font-bold pb-20">FAQ</h5>
+                           <a href="#" class="text-14 font-light font-Grantha block" >FANVESTOR</a>
+                           <a href="#" class="text-14 font-light font-Grantha block" >REG CF</a>
+                           <a href="#" class="text-14 font-light font-Grantha block" >EXPERIENCES</a>
+                        </li>
+                     </ul>
+                     <div class="footer-mail w-25_per mdscreen2:w-full mdscreen2:mb-20" data-aos="fade-up">
+                        <h4 class="font-Roc text-29 font-bold pb-[25px]">JOIN OUR  MAILING LIST</h4>
+                        <input type="email" placeholder="EMAIL...">
+                        <ul class="flex items-center pt-[25px]">
+                           <li class="m-[7px] social-icon rotate0 hover:rotate-[360deg] transition-smoothtransition cursor-pointer"><a href="#"><img src="../assets/images/fb.png"></a></li>
+                           <li class="m-[7px] social-icon rotate0 hover:rotate-[360deg] transition-smoothtransition cursor-pointer">
+                              <a href="#">
+                                 <img src="../assets/images/tiktok.png" alt="">
+                           </li>
+                           <li class="m-[7px] social-icon rotate0 hover:rotate-[360deg] transition-smoothtransition cursor-pointer"><a href="#"><img src="../assets/images/twitter.png"></a></li>
+                           <li class="m-[7px] social-icon rotate0 hover:rotate-[360deg] transition-smoothtransition cursor-pointer"><a href="#"><img src="../assets/images/linkedin.png" alt=""></a></li>
+                           <li class="m-[7px] social-icon rotate0 hover:rotate-[360deg] transition-smoothtransition cursor-pointer"><a href="#"><img src="../assets/images/yt.png"></a></li>
+                           <li class="m-[7px] social-icon rotate0 hover:rotate-[360deg] transition-smoothtransition cursor-pointer"><a href="#"><img src="../assets/images/insta.png"></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="row copyright pt-30">
+                     <div class="font-Helvetica_black font-bold text-12 tracking-01em">
+                        <b>© 2022 FanVestor.All rights reserved.</b><br />
+                        <b>All investments involve risks, including the possible loss of capital.</b>
+                     </div>
+                     <div class="text pt-27 font-Grantha text-12">
+                        <p>In making an investment decision, investors must rely on their own examination of the issuer and the terms of the offering, including the merits and risks involved. Investment opportunities posted on this website are speculative, illiquid, and involve a high degree of risk, including the possible loss of your entire investment. This site is operated by EdenLedger, Inc. (d/b/a “FanVestor”), which is a technology service provider. FanVestor does not offer investment advice, broker-dealer services, or recommendations with respect to any securities. All securities posted on this website are offered by, and all information included on this site is the responsibility of, the applicable issuer of such securities. FanVestor cannot verify the adequacy, accuracy or completeness of any information. Neither FanVestor nor any of its officers, directors, agents and employees makes any warranty, express or implied, of any kind whatsoever related to the adequacy, accuracy or completeness of any information on this site or the use of information on this site. By accessing this site and any pages thereof, you agree to be bound by the Terms of Use and Privacy Policy. All Regulation Crowdfunding (“Reg CF”) offerings are conducted by FanVestor CF LLC, a wholly-owned subsidiary of EdenLedger Inc., and a funding portal registered with the US Securities and Exchange Commission (“SEC”) and member of the Financial Industry Regulatory Authority (“FINRA”). FINRA’s Portal We Regulate. All Regulation D and Regulation A+ broker-dealer related securities offerings and activities are conducted through the Dalmore Group LLC, a broker-dealer registered with the SEC and member FINRA / SiPC. Office of Supervisory Jurisdiction 525 Green Place Woodmere, NY11598. FINRA ’s BrokerCheck. FanVestor CF LLC and the Dalmore Group are independent and unaffiliated entities.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+      <!-- Wrapper End -->
+   </body>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="../assets/js/rellax.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+   <script src="../assets/js/ticker.js"></script> 
+   <script src="../assets/js/script.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+</html>
